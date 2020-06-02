@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <groupId>com.example</groupId>
-    <artifactId>groovy-test</artifactId>
+    <artifactId>groovy-maven-setup</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 
