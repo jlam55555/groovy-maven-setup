@@ -26,6 +26,8 @@ mvnw.cmd clean package
 ```
 The generated uber-JAR will be located in the target directory, and can be run as normal with `java -jar GENERATED_JARFILE.jar`.
 
+The other Maven lifecycle events still apply (e.g., `mvn compile`, `mvn test`, etc.). Testing is performed by the `maven-surefire-plugin` and packaging all dependencies is performed with `maven-shade-plugin`.
+
 [1]: ./pom.xml
 [2]: https://github.com/takari/maven-wrapper
 [3]: https://groovy.github.io/GMavenPlus/
